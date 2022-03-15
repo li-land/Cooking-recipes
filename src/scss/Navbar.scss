@@ -1,0 +1,65 @@
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+  &__item {
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    position: relative;
+
+    &:hover .menu__sublist {
+      display: block;
+    }
+  }
+  &__link {
+    display: block;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 40px;
+    color: inherit;
+    &:not(:last-child):hover {
+      border-bottom: 1px solid rgb(223, 35, 35);
+    }
+  }
+  &__link--outline {
+    border: 1px solid rgb(223, 95, 35);
+    color: rgb(223, 95, 35);
+    border-radius: 5px;
+    margin-left: 20px;
+    letter-spacing: 0px;
+    text-transform: none;
+    transition: all 0.2s;
+    &:hover {
+      background-color: rgb(223, 95, 35);
+      color: rgb(250, 231, 231);
+    }
+    &:active {
+      background-color: rgb(189, 77, 25);
+      color: rgb(250, 231, 231);
+    }
+  }
+  &__sublist {
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgb(221, 221, 221);
+  }
+  &__link--sublink {
+    font-size: 12px;
+    font-weight: 400;
+
+    &:hover {
+      border-bottom: 1px solid rgb(114, 114, 114);
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.loader-wrapper {
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #db5534;
+  border-bottom: 8px solid #db5534;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  -webkit-animation: spin 1.5s forwards infinite;
+  animation: spin 1.5s forwards infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+@import url("./Header.scss");
+@import url("./Navbar.scss");
+@import url("./Search.scss");
+@import url("./Home.scss");
+@import url("./Footer.scss");
+@import url("./NotFound.scss");
+@import url("./media.scss");
+@import url("./Preloader.scss");
+@import url("./Recipe.scss");
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Arial", sans-serif;
+  color: #3d3d3d;
+}
+
+.wrapper {
+  min-height: 100vh;
+  min-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.page {
+  flex: 1 1 auto;
+  padding: 0 20px 20px;
+}
+.btn {
+  background-color: #f18e0c;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  &:active {
+    background-color: #ce7a0c;
+  }
+}
+.btn-back {
+  background-color: transparent;
+  text-align: center;
+  color: #747474;
+  text-decoration: underline;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  &:hover {
+    color: #a5a5a5;
+    text-decoration: none;
+  }
+  &:active {
+    color: #747474;
+    text-decoration: none;
+  }
+}
+.link {
+  color: #3d3d3d;
+}
