@@ -15,7 +15,7 @@ import { MealsContextProvider } from "./store/context";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/Cooking-recipes">
         <div className="wrapper">
           <MealsContextProvider>
             <Header />
