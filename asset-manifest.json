@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Cooking-recipes/static/css/main.96143650.css",
+    "main.js": "/Cooking-recipes/static/js/main.6ab0ab03.js",
+    "static/media/logo.png": "/Cooking-recipes/static/media/logo.95484ba433edf3b35692.png",
+    "index.html": "/Cooking-recipes/index.html",
+    "main.96143650.css.map": "/Cooking-recipes/static/css/main.96143650.css.map",
+    "main.6ab0ab03.js.map": "/Cooking-recipes/static/js/main.6ab0ab03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96143650.css",
+    "static/js/main.6ab0ab03.js"
+  ]
+}
